@@ -1,0 +1,115 @@
+.serif {
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+}
+
+.sans-serif {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+body {
+    background-image: url('../img/bg-clouds.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #c0deed;
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+    padding: 0 1em;
+}
+
+h1 em {
+    font-size: 24.5px;
+}
+
+a {
+    color: #224b8d;
+    text-decoration: none;
+}
+
+h1#header, div#footer {
+    text-align: center;
+}
+
+h1#header {
+    margin-bottom: 1em;
+}
+
+/* Sample query tables on index page */
+
+div.sample-query-container {
+    text-align: center;
+}
+
+div.sample-query {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 650px;
+}
+
+div.sample-query ul {
+    list-style: none outside none;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+div.sample-query ul li {
+    float: left;
+    line-height: 25px;
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+/* MTurk pages */
+
+div#mturk-intro p {
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Tweet List */
+
+ul.tweet-list {
+    list-style: none outside none;
+    margin: 0 0 10px 0;
+}
+
+ul.tweet-list li {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 12px 0;
+}
+
+div.tweet-img {
+    float: left;
+    border-radius: 5px;
+    height: 48px;
+    width: 48px;
+}
+
+div.tweet-img img {
+    border: 0 none;
+}
+
+/*
+ * div.tweet-name, p.tweet-text, div.tweet-stats, div.tweet-tags {
+    margin-left: 60px;
+    padding: 20px;
+}
+*/
+/* Comparison table */
+
+table.compare-table td, table.compare-table th {
+    border-top: 1px solid #DDDDDD;
+    line-height: 20px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+}
+
+/* Give a bottom rule */
+.bottom-rule {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 12px 0;
+}
+
