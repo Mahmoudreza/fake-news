@@ -1,5 +1,5 @@
-# perception-bias-fake-news
-Perception Project
+# Users' perception biases in judging (fake) news
+
 
 This project includes different directory files such as AMT_survey, Code, data-set.
 
