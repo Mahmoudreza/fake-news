@@ -25,26 +25,7 @@ Thus to test them we set up other sruveys that you can find the related survey c
 
 data-set:
 After we collected the answeres from AMT workers we collected them, preprocess and prepare them to do some analysis.
-
-Amt- workers- features.csv):
-In each row, we have the worker id and the value of their demographic features as follows:
- Worker_id, age, degree, employment, gender, income, marital_status, political_view, race
- 
-Workers- perception- 1.csv:
-Since asking one worker to label 150 claims was not possible, we divided our 150 news stories to three groups that each of them includes
-50 claims (10 False, 10 Mostly False, 10 Mixture, 10 Mostly True, and 10 True). Then for each group, 100 AMT workers were asked to label them.
-Includes first group of 50 news stories with the following header:
-Text-id: unique id assigned to each news story.
-Text: context of the news story.
-Ground-truth: the ground truth label that given by Snopes (False, Mostly False, Mixture, Mostly True, True).
-Worker-id: unique id assigned to each worker, and in the corresponding column, you can see how worker labels each news story.
-We mapped these labels on a scale between 1 and 5. This means False, Mostly False, Mixture, Mostly True, and True mapped to 1, 2, 3, 4,and 5 respectively.
-
-Workers- perception- 2.csv:
-Same format as Workers-perception-1.csv, however, it includes the second group of 50 news stories.
-
-Workers-perception-3.csv:
-Same format as Workers-perception-1.csv, however, it includes the third group of 50 news stories.
+We release the data set very soon!
 
 Code:
 Using analysis_fake-news_new_gt.py we preprocess the raw data collected from AMT workers. 
